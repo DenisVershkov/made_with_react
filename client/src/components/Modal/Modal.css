@@ -1,0 +1,33 @@
+.modalka {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4) ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.modalka__content {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: white;
+  transform: scale(0.5s);
+  transition: 0.4s all;
+  min-width: 60rem;
+}
+.modalka.active{
+  opacity: 1;
+  pointer-events: all;
+  z-index: 101
+}
+.modalka__content.active {
+  transform: scale(1);
+}

@@ -1,0 +1,8 @@
+.fa-arrow-left, .fa-arrow-right {
+  color: #5c6cbf; 
+}
+.slider-left:nth-child(1), .slider-right:nth-child(1) {
+  /* border-color: black; */
+  /* background-color: black; */
+
+}

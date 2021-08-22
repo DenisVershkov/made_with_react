@@ -1,0 +1,23 @@
+.formContainer {
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.button_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 9%;
+    margin-right: 6%;
+}
+
+.IconButtons {
+}
+
+.formSpan {
+    text-align: center;
+    padding-top: 30px;
+    font-size:25px;
+}

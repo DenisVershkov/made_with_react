@@ -1,0 +1,39 @@
+.formContainer {
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.button_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 9%;
+    margin-right: 6%;
+}
+
+.IconButtons {
+}
+
+.formSpan {
+    text-align: center;
+}
+
+.photoUpload__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textUdateText {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.uploadImage {
+    width: 50%;
+}
